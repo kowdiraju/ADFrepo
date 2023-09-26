@@ -1,0 +1,17 @@
+{
+	"name": "DS_sqldatabase",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_sqldatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "FIles",
+			"table": "Images"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

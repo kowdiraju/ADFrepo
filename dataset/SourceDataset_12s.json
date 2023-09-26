@@ -1,0 +1,19 @@
+{
+	"name": "SourceDataset_12s",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_blob01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "WhatsApp Image 2023-09-23 at 11.30.54 AM.jpeg",
+				"container": "blobcontainer1"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

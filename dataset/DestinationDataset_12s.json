@@ -1,0 +1,18 @@
+{
+	"name": "DestinationDataset_12s",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_datalake01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "datalakecontainer01"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

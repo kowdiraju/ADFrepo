@@ -1,0 +1,9 @@
+{
+	"name": "GadipeSachin",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b1da2b82-974c-4f78-9036-c2752b664809",
+		"tenantId": "7757afd6-a651-4507-8596-e9db872e8e38"
+	}
+}
