@@ -55,8 +55,25 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Copy_12s",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
 			}
 		],
+		"concurrency": 10,
 		"annotations": [],
 		"lastPublishTime": "2023-09-25T01:41:18Z"
 	},
